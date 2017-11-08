@@ -14,13 +14,13 @@ legend_map={'rouge':'Red wine', 'blanc':'White wine','rose':'Rosé', 'cognac_arm
 'aop':'AOP (protected designation of origin)','igp':'IGP (protected geographical indication)','vsig':'Wine without protected geographical indication'}
 
 
-init_map(datapath= 'http://localhost:8000/wine_data_simple.json')
+init_map(datapath= 'http://localhost:8000/wine_data.json')
 
-init_data(datapath= 'http://localhost:8000/wine_data_simple.json')
+init_data(datapath= 'http://localhost:8000/wine_data.json')
 
 
 
-function init_map(datapath){  //datapath = 'http://localhost:8000/wine_data.json'
+function init_map(datapath){  
 
 	var projection = d3.geoConicConformal()
 	    .center([2.454071, 46.279229])
@@ -64,7 +64,7 @@ function init_map(datapath){  //datapath = 'http://localhost:8000/wine_data.json
                                 ;})
 }
 
-function init_data(datapath){  //datapath = 'http://localhost:8000/wine_data.json'
+function init_data(datapath){ 
 
 d3.json(datapath, function(req, geojson) {
 
