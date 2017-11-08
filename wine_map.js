@@ -14,9 +14,9 @@ legend_map={'rouge':'Red wine', 'blanc':'White wine','rose':'Rosé', 'cognac_arm
 'aop':'AOP (protected designation of origin)','igp':'IGP (protected geographical indication)','vsig':'Wine without protected geographical indication'}
 
 
-init_map(datapath= 'http://localhost:8000/wine_data.json')
+init_map(datapath= 'https://github.com/AlxClt/French-Wine-Map/blob/master/wine_data.json')
 
-init_data(datapath= 'http://localhost:8000/wine_data.json')
+init_data(datapath= 'https://github.com/AlxClt/French-Wine-Map/blob/master/wine_data.json')
 
 
 
