@@ -6,6 +6,6 @@ This is a map showing the 2016 wine production data in france using the D3.js pa
 
 The data comes from the French government's open data portal : http://www.data.gouv.fr/
 
-See it here :  https://cdn.rawgit.com/AlxClt/French-Wine-Map/master/vin.html (click on the departments for more datas)
+See it here :  https://alxclt.github.io/Dataviz-French_Wines_Map/vin.html (click on the departments for more datas)
 
 Enjoy!
