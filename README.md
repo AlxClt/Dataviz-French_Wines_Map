@@ -1,11 +1,10 @@
 # French-Wine-Map
 
-Visualizing the wine production in France thanks to D3.js
+An interactive map to vizualise the wine production in France thanks to [D3.js](https://d3js.org/). The basic display shows the volume of the different types of wines (red, white, rosé, cognac). By clicking on a department you can zoom and see the surfaces of the cultures dedicated to the different protected (or not) designations.
 
-This is a map showing the 2016 wine production data in france using the D3.js package : https://d3js.org/
+See it [here](https://alxclt.github.io/Dataviz-French_Wines_Map/vin.html) 
 
-The data comes from the French government's open data portal : http://www.data.gouv.fr/
 
-See it here :  https://alxclt.github.io/Dataviz-French_Wines_Map/vin.html (click on the departments for more datas)
+Data source: [French government's open data portal](http://www.data.gouv.fr/)
 
 Enjoy!
